@@ -1,18 +1,21 @@
 {
   "files": {
-    "main.js": "/yan-react-pages/static/js/main.d8b7c764.chunk.js",
-    "main.js.map": "/yan-react-pages/static/js/main.d8b7c764.chunk.js.map",
+    "main.css": "/yan-react-pages/static/css/main.47124a84.chunk.css",
+    "main.js": "/yan-react-pages/static/js/main.58d60b41.chunk.js",
+    "main.js.map": "/yan-react-pages/static/js/main.58d60b41.chunk.js.map",
     "runtime-main.js": "/yan-react-pages/static/js/runtime-main.50fc30ee.js",
     "runtime-main.js.map": "/yan-react-pages/static/js/runtime-main.50fc30ee.js.map",
-    "static/js/2.703339d9.chunk.js": "/yan-react-pages/static/js/2.703339d9.chunk.js",
-    "static/js/2.703339d9.chunk.js.map": "/yan-react-pages/static/js/2.703339d9.chunk.js.map",
+    "static/js/2.87786389.chunk.js": "/yan-react-pages/static/js/2.87786389.chunk.js",
+    "static/js/2.87786389.chunk.js.map": "/yan-react-pages/static/js/2.87786389.chunk.js.map",
     "index.html": "/yan-react-pages/index.html",
-    "static/js/2.703339d9.chunk.js.LICENSE.txt": "/yan-react-pages/static/js/2.703339d9.chunk.js.LICENSE.txt",
+    "static/css/main.47124a84.chunk.css.map": "/yan-react-pages/static/css/main.47124a84.chunk.css.map",
+    "static/js/2.87786389.chunk.js.LICENSE.txt": "/yan-react-pages/static/js/2.87786389.chunk.js.LICENSE.txt",
     "static/media/yanPhoto.93912f8e.jpg": "/yan-react-pages/static/media/yanPhoto.93912f8e.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.50fc30ee.js",
-    "static/js/2.703339d9.chunk.js",
-    "static/js/main.d8b7c764.chunk.js"
+    "static/js/2.87786389.chunk.js",
+    "static/css/main.47124a84.chunk.css",
+    "static/js/main.58d60b41.chunk.js"
   ]
 }
