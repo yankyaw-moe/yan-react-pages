@@ -8,14 +8,15 @@ import {
 import { StyledSideNav } from "./styles";
 
 const items = [
-  { name: "Me", path: "/" },
-  { name: "Education", path: "/education" },
-  { name: "Work", path: "/work" },
-  { name: "Projects", path: "/projects" },
+  { name: "Me", path: "/yan-react-pages/" },
+  { name: "Education", path: "/yan-react-pages/education" },
+  { name: "Work", path: "/yan-react-pages/work" },
+  { name: "Projects", path: "/yan-react-pages/projects" },
 ];
 
 const Sidebar = () => {
   const location = useLocation();
+  console.log("location ", location);
 
   return (
     <StyledSideNav
@@ -28,7 +29,8 @@ const Sidebar = () => {
         {items.map((i) => (
           <SideNavLink
             isActive={
-              location.pathname === "/" && i.path === "/"
+              location.pathname === "/yan-react-pages/" &&
+              i.path === "/yan-react-pages/"
                 ? true
                 : location.pathname === i.path
             }

@@ -8,19 +8,7 @@ const Projects = () => {
     <Layout>
       <div>
         <SectionTitle>Projects</SectionTitle>
-        <ul>
-          {/* {user.projects.map((project, i) => ( */}
-          <ProjectItem>
-            <ProjectTitle>project.name</ProjectTitle>
-            <p>summary</p>
-            <SkillContainer>
-              {/* {[...project.languages, ...project.libraries].map((item, j) => ( */}
-              <Pill>item</Pill>
-              {/* ))} */}
-            </SkillContainer>
-          </ProjectItem>
-          {/* ))} */}
-        </ul>
+        <h5>Coming Soon...</h5>
       </div>
     </Layout>
   );

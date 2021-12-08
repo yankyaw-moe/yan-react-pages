@@ -9,10 +9,10 @@ const Pages = () => {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<Me />} />
-        <Route path="/education" element={<Education />} />
-        <Route path="/work" element={<Work />} />
-        <Route path="/projects" element={<Projects />} />
+        <Route path="yan-react-pages/" element={<Me />} />
+        <Route path="yan-react-pages/education" element={<Education />} />
+        <Route path="yan-react-pages/work" element={<Work />} />
+        <Route path="yan-react-pages/projects" element={<Projects />} />
       </Routes>
     </Router>
   );

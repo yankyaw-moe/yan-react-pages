@@ -8,19 +8,7 @@ const Education = () => {
     <Layout>
       <div>
         <SectionTitle>Education</SectionTitle>
-        <ul>
-          {/* {user.education.map((education, i) => ( */}
-          <EducationItem>
-            <Institution>education.position</Institution>
-            <div>
-              <Degree>education.studyType, education.area</Degree>{" "}
-              <span> &sdot; </span>
-              <span>education.start.year to education.end.year</span>
-            </div>
-            <Paragraph>education.description.replace('\n\n', '\n')</Paragraph>
-          </EducationItem>
-          {/* ))} */}
-        </ul>
+        <h5>Coming Soon...</h5>
       </div>
     </Layout>
   );

@@ -2,7 +2,11 @@ import React from "react";
 import { useLocation } from "react-router-dom";
 import { HeaderContainer, Header, Image } from "./styles";
 import Picture from "./yanPhoto.jpg";
-import { LogoGithub32, LogoLinkedin32 } from "@carbon/icons-react";
+import {
+  LogoGithub32,
+  LogoLinkedin32,
+  LogoFacebook32,
+} from "@carbon/icons-react";
 
 const UserHeader = () => {
   const location = useLocation();
@@ -12,7 +16,7 @@ const UserHeader = () => {
       <Header>
         <Image src={Picture} />
         <div>
-          <h2>{`<h2> Yan Kyaw Moe </h2>`}</h2>
+          <h2>Yan Kyaw Moe</h2>
           <br />
           <a
             href="https://github.com/yankyaw-moe"
@@ -29,11 +33,20 @@ const UserHeader = () => {
           >
             <LogoLinkedin32 />
           </a>
+          {"  "}
+          <a
+            href="https://www.facebook.com/yankyaw.moe/"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            <LogoFacebook32 />
+          </a>
           <hr />
           <br />
-          <p>{`< Software Developer />`}</p>
-          <p>{`<p> Based in Yangon, Myanmar.`}</p>
-          <p>{`Over 4 years of experience as a developer. </p>`}</p>
+          <p>Software Developer</p>
+          <p>Based in Yangon, Myanmar.</p>
+          <p>Over 4 years of experience as a developer.</p>
+          <p>### Also Available: part time & freelance ###</p>
         </div>
       </Header>
     </HeaderContainer>
